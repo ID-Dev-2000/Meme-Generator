@@ -6,6 +6,10 @@ button {
     margin-bottom: 10px;
 }
 
+#miniMemeDisplay {
+    border: 1px solid black;
+}
+
 .displayAllImages {
     border: 3px solid black;
     border-radius: 5px;
