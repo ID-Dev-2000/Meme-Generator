@@ -12,5 +12,6 @@ Note:
 - elected to write my own text handler because I was confused by the API's documentation
 - also need to add enter-key functionality on input forms
 - should figure out some form of download button, rather than "right click -> save"
+- should also add better mobile responsiveness (oops)
 
 API source: https://imgflip.com/api
