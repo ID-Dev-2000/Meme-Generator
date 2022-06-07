@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="mainContentParentContainer">
+        <h1>Meme Maker</h1>
+        <button id="memeSelection">Pick A Meme</button>
+        <button id="closeMemeSelection" hidden>Close</button>
+        <div class="displayAllImages" id="displayAllImages" hidden></div>
+    </div>
+    <div class="userMemeInputParent" id="userMemeInputParentID" style="display: none;">
+        <img id="miniMemeDisplay" alt="small selected meme image" style="width: 400px; height: 400px;">
+        <input id="topText" placeholder="Top Text">
+        <input id="bottomText" placeholder="Bottom Text">
+        <button id="submitMemeData">SUBMIT</button>
+    </div>
+    <div class="canvasParent" id="canvasParentID" style="display: none;">
+        <canvas id="memeImageCanvas" width="400" height="400"></canvas>
+        <p>To download: right click, save image.</p>
+        <a href="./index.html">RESET</a> <!-- may need to change when live -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

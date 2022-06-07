@@ -1,0 +1,52 @@
+body {
+    background-color: aliceblue;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+.displayAllImages {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 70%;
+}
+
+.displayAllImages *{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mainContentParentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.userMemeInputParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.userMemeInputParent *{
+    margin-bottom: 5px;
+}
+
+.canvasParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.canvasParent *{
+    margin-bottom: 5px;
+}
+
+canvas {
+    border: 1px solid black;
+}
