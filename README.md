@@ -8,8 +8,7 @@ https://id-dev-2000.github.io/Meme-Generator/
 
 Note:
 - formatting of image text is flawed; must handle text overflow via some form of wrapping
-- originally intended to handle the image text via a POST request to the API
-- elected to write my own text handler because I was confused by the API's documentation
+- originally intended to handle the image text via a POST request to the API, elected to write my own text handler because I was confused by the API's documentation
 - also need to add enter-key functionality on input forms
 - should figure out some form of download button, rather than "right click -> save"
 - should also add better mobile responsiveness (oops)
