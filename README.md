@@ -8,6 +8,6 @@ https://id-dev-2000.github.io/Meme-Generator/
 
 API source: https://imgflip.com/api
 
-main todo: implement download button
+todo: implement download button,  enter key submit text
 
 https://ibb.co/6nbDz47
