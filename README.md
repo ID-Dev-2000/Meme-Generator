@@ -7,7 +7,3 @@ https://id-dev-2000.github.io/Meme-Generator/
 - allows user to save image as new meme with selected image as background, input text displayed over top
 
 API source: https://imgflip.com/api
-
-todo: implement download button,  enter key submit text
-
-https://ibb.co/6nbDz47
